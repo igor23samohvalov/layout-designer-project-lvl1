@@ -1,7 +1,26 @@
 /** CSS STYLE **/
 
-.hello {
-  display: block;
+@font-face {
+  font-family: "Open Sans";
+  src: url(".//fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
 
-  color: #fff;
+.m-0 {
+  margin: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 914px;
+  box-sizing: border-box;
+  padding: 100px 165px;
+  background-color: #E5E5E5;
+}
+
+.footer {
+  width: 100vw;
+  height: 581px;
+  box-sizing: border-box;
+  padding: 100px 165px;
+  background-color: #FFFFFF;
 }
