@@ -125,11 +125,11 @@ section {
 .header-image {
   position: absolute;
   top: 9%;
-  right: -9%;
+  right: -7%;
 }
 
 .header-columns {
-  margin-top: 200px;
+  margin-top: 190px;
   column-count: 2;
   column-gap: 30px;
 }
