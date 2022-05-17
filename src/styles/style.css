@@ -6,8 +6,8 @@
 }
 
 @font-face {
-  font-family: "Neucha";
-  src: url('./fonts/Neucha-Regular.ttf');
+  font-family: Neucha;
+  src: url("./fonts/Neucha-Regular.ttf");
 }
 
 * {
@@ -24,21 +24,21 @@ body {
 }
 
 h1 {
-  font-family: "Neucha";
-  font-style: normal;
-  font-size: 72px;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
+  color: #000;
+  font-size: 72px;
+  font-style: normal;
   line-height: 1.2em;
-  color: #000000;
 }
 
 h2 {
-  font-family: "Neucha";
-  font-style: normal;
-  font-size: 60px;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
   line-height: 1.2em;
-  color:#FEBA02;
+  color: #feba02;
   margin: 0;
 }
 
@@ -48,7 +48,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Neucha";
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-size: 34px;
   font-weight: 400;
@@ -56,10 +56,10 @@ h3 {
 }
 
 h4 {
-  font-family: "Neucha";
-  font-style: normal;
-  font-size: 24px;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
   line-height: 1.2em;
 }
 
@@ -71,11 +71,10 @@ p {
 .number {
   padding-bottom: 40px;
   font-size: 64px;
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-style: normal;
   line-height: 1;
 }
-
 
 .header {
   position: relative;
@@ -105,7 +104,7 @@ section {
 }
 
 .header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -117,8 +116,6 @@ section {
   height: 100%;
   margin-left: 35px;
   margin-right: 35px;
-  /* width: 100vw;
-  height: 915px; */
 }
 
 .header > * {
@@ -152,11 +149,11 @@ section {
 }
 
 .header-button:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .video {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 #navigation {
@@ -174,7 +171,7 @@ section {
   position: relative;
   max-width: 350px;
   max-height: 323px;
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
   padding: 24px;
   margin-top: 20px;
 }
@@ -198,21 +195,17 @@ section {
 }
 
 .card h3 {
-  color:#FEBA02;
+  color: #feba02;
 }
 
 .card:not(:first-child):hover {
-  background-color: #FEBA02;
-  color: #fff
+  background-color: #feba02;
+  color: #fff;
 }
 
 .card:not(:first-child):hover h3 {
-  color: #fff
+  color: #fff;
 }
-
-/* .ikea-effect {
-  position: relative;
-} */
 
 .kognivitive-section {
   position: relative;
@@ -221,7 +214,7 @@ section {
 }
 
 .ikea-effect::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0px;
   left: 3%;
@@ -251,12 +244,12 @@ section {
 }
 
 .ikea-effect-img {
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .ikea-effect-columns-header {
   column-span: all;
-  color:#fff;
+  color: #fff;
   font-weight: bold;
   font-size: 14px;
   padding: 5px 10px;
@@ -268,7 +261,6 @@ section {
   width: 100vw;
   display: flex;
   justify-content: center;
-  width: 100vw;
   padding: 100px;
 }
 
@@ -307,9 +299,9 @@ section {
   position: relative;
   height: 50px;
   width: 70px;
-  padding: 0px;
+  padding: 0;
   border: none;
-  background-color: #FEBA02;
+  background-color: #feba02;
 }
 
 #email-submit::before {
@@ -323,7 +315,7 @@ section {
 }
 
 #email-submit:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .footer-little-font {
@@ -335,27 +327,27 @@ section {
 }
 
 .primary-bg {
-  background-color: #FEBA02;
+  background-color: #feba02;
 }
 
 .secondary-bg {
-  background-color: #42413C;
+  background-color: #42413c;
 }
 
 .dark-bg {
-  background-color: #B09A81;
+  background-color: #b09A81;
 }
 
 .light-bg {
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .standart-font {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .primary-font {
-  color: #FEBA02;
+  color: #feba02;
 }
 
 .secondary-font {
@@ -363,12 +355,11 @@ section {
 }
 
 .white-50-font {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .dark-font {
-  color: #B09A81;
-
+  color: #b09a81;
 }
 
 .white-font {
@@ -424,6 +415,7 @@ section {
 .mt-6 {
   margin-top: 60px;
 }
+
 .pt-10 {
   padding-top: 100px;
 }
@@ -446,7 +438,7 @@ section {
 }
 
 .neucha {
-  font-family: Neucha;
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-size: 24px;
 }
