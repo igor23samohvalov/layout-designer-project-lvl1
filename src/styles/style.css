@@ -115,8 +115,8 @@ section {
   opacity: 0.9;
   width: 90%;    
   height: 100%;
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 35px;
+  margin-right: 35px;
   /* width: 100vw;
   height: 915px; */
 }
@@ -127,8 +127,8 @@ section {
 
 .header-image {
   position: absolute;
-  top: -55px;
-  right: -270px;
+  top: -40px;
+  right: -166px;
 }
 
 .header-columns {
