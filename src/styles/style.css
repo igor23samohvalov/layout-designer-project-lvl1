@@ -127,7 +127,7 @@ section {
 .header-image {
   position: absolute;
   top: 65px;
-  right: -113px;
+  right: -5%;
 }
 
 .header-columns {
@@ -400,7 +400,7 @@ section {
 }
 
 .mb-35 {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .pb-2 {
