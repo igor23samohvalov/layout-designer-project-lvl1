@@ -125,8 +125,8 @@ section {
 
 .header-image {
   position: absolute;
-  top: 65px;
-  right: -5%;
+  top: 55px;
+  right: -270px;
 }
 
 .header-columns {
@@ -427,7 +427,7 @@ section {
 }
 
 .mb-10 {
-  margin-bottom: -95px;
+  margin-bottom: -94px;
 }
 
 .py-10 {
