@@ -82,8 +82,7 @@ p {
   display: flex;
   justify-content: center;
   width: 100vw;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  overflow: hidden;
 }
 
 main {
@@ -109,13 +108,17 @@ section {
   content: '';
   position: absolute;
   top: 0;
-  left: 3%;
+  left: 0;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.9;
-  width: 100%;
-  height: 100vw;
+  width: 90%;    
+  height: 100%;
+  margin-left: 55px;
+  margin-right: 55px;
+  /* width: 100vw;
+  height: 915px; */
 }
 
 .header > * {
@@ -124,8 +127,8 @@ section {
 
 .header-image {
   position: absolute;
-  top: 9%;
-  right: -7%;
+  top: -55px;
+  right: -270px;
 }
 
 .header-columns {
@@ -450,4 +453,6 @@ section {
 
 .relative {
   position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
