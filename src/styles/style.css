@@ -109,7 +109,7 @@ section {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
+  left: 1%;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -124,12 +124,12 @@ section {
 
 .header-image {
   position: absolute;
-  top: 8%;
-  right: -8%;
+  top: 9%;
+  right: -9%;
 }
 
 .header-columns {
-  margin-top: 210px;
+  margin-top: 205px;
   column-count: 2;
   column-gap: 30px;
 }
