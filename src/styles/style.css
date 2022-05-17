@@ -66,7 +66,6 @@ h4 {
 p {
   font-size: 16px;
   line-height: 1.6em;
-  /* color:#2A2626; */
 }
 
 .number {
@@ -109,8 +108,8 @@ section {
 .header::before {
   content: '';
   position: absolute;
-  top: -2%;
-  left: 2%;
+  top: -1%;
+  left: 3%;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,12 +124,12 @@ section {
 
 .header-image {
   position: absolute;
-  top: 55px;
-  right: -270px;
+  top: 8%;
+  right: -8%;
 }
 
 .header-columns {
-  margin-top: 201px;
+  margin-top: 260px;
   column-count: 2;
   column-gap: 30px;
 }
@@ -447,4 +446,8 @@ section {
   font-family: Neucha;
   font-style: normal;
   font-size: 24px;
+}
+
+.relative {
+  position: relative;
 }
