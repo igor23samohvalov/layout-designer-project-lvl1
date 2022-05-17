@@ -35,6 +35,7 @@ h2 {
   font-weight: 400;
   line-height: 1.2em;
   color:#FEBA02;
+  margin: 0;
 }
 
 .h2-custom {
@@ -61,7 +62,7 @@ h4 {
 p {
   font-size: 16px;
   line-height: 1.6em;
-  color:#2A2626;
+  /* color:#2A2626; */
 }
 
 .number {
@@ -79,7 +80,7 @@ p {
   justify-content: center;
   width: 100vw;
   padding: 100px;
-  overflow: clip;
+  overflow: hidden;
 }
 
 main {
@@ -87,6 +88,7 @@ main {
   align-items: center;
   flex-direction: column;
   width: 100vw;
+  overflow: hidden;
 }
 
 section {
@@ -105,7 +107,7 @@ section {
   content: '';
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 10%;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +123,7 @@ section {
 .header-image {
   position: absolute;
   top: 55px;
-  right: -103px;
+  right: -93px;
   height: 525px;
 }
 
@@ -167,7 +169,7 @@ section {
   max-width: 350px;
   background-color: #fff;
   padding: 24px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .card a {
@@ -198,13 +200,15 @@ section {
 
 .kognivitive-section {
   position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .ikea-effect::before {
   content: '';
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 10%;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -258,7 +262,7 @@ section {
   display: flex;
   width: 1110px;
   justify-content: space-between;
-  padding: 55px 38px;
+  padding: 20px 38px;
 }
 
 .footer-subscribe div {
