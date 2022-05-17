@@ -110,7 +110,7 @@ section {
 .header::before {
   content: '';
   position: absolute;
-  top: 0px;
+  top: -2%;
   left: 2%;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
@@ -127,11 +127,11 @@ section {
 .header-image {
   position: absolute;
   top: 65px;
-  right: -103px;
+  right: -113px;
 }
 
 .header-columns {
-  margin-top: 200px;
+  margin-top: 201px;
   column-count: 2;
   column-gap: 30px;
 }
@@ -399,7 +399,7 @@ section {
   margin-bottom: 10px;
 }
 
-.mb-3 {
+.mb-35 {
   margin-bottom: 30px;
 }
 
