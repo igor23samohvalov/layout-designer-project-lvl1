@@ -108,8 +108,8 @@ section {
 .header::before {
   content: '';
   position: absolute;
-  top: -1%;
-  left: 3%;
+  top: 0;
+  left: 0;
   background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,7 +129,7 @@ section {
 }
 
 .header-columns {
-  margin-top: 260px;
+  margin-top: 210px;
   column-count: 2;
   column-gap: 30px;
 }
